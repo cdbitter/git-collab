@@ -1,2 +1,21 @@
-b.	In your own words, write down a scenario that will involve a merge conflict between develop and conflict_branch. Add your answer to readme.doc
-c.	In your own words, write down a scenario that will NOT involve a merge conflict between develop and conflict_branch despite some change on the same file on both branches. Add your answer to readme.doc
+Troy Nabbefeld,Jonathan Mleziva,Robert Wilary, Ryan Drew, Charlie Bitter
+
+
+a. Both merges above are fast-forward merges. Explain. 
+
+A fast-forward branch is a merge that happens in git without conflict in a linear path. Each branch catches up or “fast-forwards” by merging with a different branch without conflict.
+ 
+b. In your own words, write down a scenario that will involve a merge conflict between develop and conflict_branch. Add your answer to readme.doc
+
+When we made changes to the title in the develop branch and in the conflict branch and attempted to merge these branches, a conflict occurred. By pushing and pulling individual changes, you can avoid conflicts. The merge resolution allows us to decide which change we want to accept when this conflict occurs. 
+
+ 
+c. In your own words, write down a scenario that will NOT involve a merge conflict between develop and conflict_branch despite some change on the same file on both branches. Add your answer to readme.doc
+
+Our scenario that did not cause a conflict was when we were in the conflict-branch and created the readme.doc file. Then upon completing the requested conflict as mentioned above, we merged the master branch from the develop branch which was merged with the conflict branch. Which allowed the readme.doc file to be merged with the master, allowing the main branch to access the readme.doc file without issues.
+
+ 
+
+
+
+
