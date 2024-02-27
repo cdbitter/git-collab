@@ -1,21 +1,21 @@
 Troy Nabbefeld,Jonathan Mleziva,Robert Wilary, Ryan Drew, Charlie Bitter
 
 
-a. Both merges above are fast-forward merges. Explain. 
+a. Both merges above are fast-forward merges. Explain.√ä
 
-A fast-forward branch is a merge that happens in git without conflict in a linear path. Each branch catches up or “fast-forwards” by merging with a different branch without conflict.
- 
+A fast-forward branch is a merge that happens in git without conflict in a linear path. Each branch catches up or √ífast-forwards√ì by merging with a different branch without conflict.
+√ä
 b. In your own words, write down a scenario that will involve a merge conflict between develop and conflict_branch. Add your answer to readme.doc
 
-When we made changes to the title in the develop branch and in the conflict branch and attempted to merge these branches, a conflict occurred. By pushing and pulling individual changes, you can avoid conflicts. The merge resolution allows us to decide which change we want to accept when this conflict occurs. 
+When we made changes to the title in the develop branch and in the conflict branch and attempted to merge these branches, a conflict occurred. By pushing and pulling individual changes, you can avoid conflicts. The merge resolution allows us to decide which change we want to accept when this conflict occurs.√ä
 
- 
+√ä
 c. In your own words, write down a scenario that will NOT involve a merge conflict between develop and conflict_branch despite some change on the same file on both branches. Add your answer to readme.doc
 
 Our scenario that did not cause a conflict was when we were in the conflict-branch and created the readme.doc file. Then upon completing the requested conflict as mentioned above, we merged the master branch from the develop branch which was merged with the conflict branch. Which allowed the readme.doc file to be merged with the master, allowing the main branch to access the readme.doc file without issues.
 
- 
+√ä
 
 
-
+[We had an error saving the image in the readme.doc file, please reference the gitgraph for the image of the branches]
 
